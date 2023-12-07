@@ -325,85 +325,158 @@
             <div class="col-md-9 col-12">
               <h4>이투스에듀 (Etoos Education)</h4>
               <i class="gray">java 웹 서버 개발자 - 공통서비스개발팀(2021), 진단평가개발팀(2022), O2O개발팀(2023)</i>
-              <ul class="pt-3">
-                <li>O2O개발팀</li>
+              <ol class="pt-3">
+                <li>프로젝트명 : 현강무패 프로젝트</li>
                 <ul>
-                  <li>오프라인 학원에서 강의 녹화 영상을 업로드하여 학생들에게 강의 영상 스트리밍을 제공하는 웹서비스를 신규 개발하여 운영하였음</li>
+                  <li>O2O개발팀</li>
+                  <li>주요 업무 : 백엔드 / 프론트엔드 개발</li>
+                  <li>담당 역할 : API 개발, 배치 프로세스 개발, 화면 개발</li>
+                  <li>개발 환경  : Java, Spring Boot, JPA, Spring Data JPA, Spring Batch, QueryDSL, Redis, Jenkins, nginx, vue2, postgreSQL, AWS, prometheus&grafana, spring boot admin</li>
+                  <li>진행 기간 : 2023년 3월 ~ 2023년 8월</li>
                   <ul>
-                    <li>요구사항에 따른 API 개발 작업 수행.</li>
-                    <li>외부 온라인 동영상 솔루션을 연동하여 개발함.</li>
-                    <ul>
-                      <li>자사 디비에 업로드된 데이터와 영상 스트리밍 솔루션에 업로드된 영상강의를 매핑하기 위한 배치 프로세스 개발을 담당하였음.</li>
-                      <ul>
-                        <li>정해진 시간(cron 식 활용)마다 솔루션에 업로드된 온라인 영상과 자사 DB에 담긴 영상 데이터를 매핑하는 작업을 수행함.</li>
-                      </ul>
-                    </ul>
-                    <li>vue.js 2버전을 사용하여 프론트엔드 개발을 병행함.</li>
+                    <li>1차, 2차, 3차로 운영 기간을 나눠서 진행함.</li>
+                    <li>나눠진 개발 단위에 따라 릴리즈 후 새로운 피드백 및 요구사항을 반영하기 위해 나눠 개발함.</li>
                   </ul>
-                </ul>
-                <li>진단평가개발팀</li>
-                <ul>
-                  <li>실제 수능 수험생들에게 제공하는 이투스 원서 지원 합불 예측 서비스를 개발 및 운영한 경험이 있음.</li>
+                  <li>프로젝트 진행 인원 : 4 (팀원 3, 팀장1)</li>
+                  <li>상세 내용 : 오프라인 학원에서 강의 녹화 영상을 업로드하여 학생들에게 강의 영상 스트리밍을 제공하는 웹서비스를 신규 개발하여 운영하였음.</li>
                   <ul>
-                    <li>신규 요구사항에 따른 API 개발 및 수정 진행.</li>
-                    <li>에러를 대비한 모니터링 시스템 구축</li>
+                    <li>요구사항에 따른 API 설계 및 개발 작업 수행.</li>
+                    <li>디자인 및 퍼블리싱된 작업물에 vue2를 활용한 화면 개발 및 API 연동</li>
+                    <li>외부 업체의 온라인 동영상 솔루션(API)을 연동하여 개발함.</li>
+                    <li>자사 디비에 업로드된 데이터와 영상 스트리밍 솔루션에 업로드된 영상강의를 매핑하기 위한 배치 프로세스 개발을 담당하였음.</li>
                     <ul>
-                      <li>pinpoint, spring boot admin, prometheus&grafana</li>
+                      <li>배치 작업을 진행하는 인스턴스를 따로 배포, 운영하였음.</li>
+                      <li>정해진 시간(cron 식 활용)마다 솔루션에 업로드된 온라인 영상과 자사 DB에 담긴 영상 데이터를 매핑하는 작업을 수행함.</li>
                     </ul>
-                    <li>aws ec2 서버 인스턴스를 두 개, db 서버 한 개로 운영함.</li>
+                  </ul>
+                  <li><strong>Skill Keywords</strong></li>
+                  <div>
+                    <span class="badge badge-secondary">Java8</span>
+                    <span class="badge badge-secondary">Spring Boot</span>
+                    <span class="badge badge-secondary">JPA</span>
+                    <span class="badge badge-secondary">Spring Data JPA</span>
+                    <span class="badge badge-secondary">Spring Batch</span>
+                    <span class="badge badge-secondary">QueryDSL</span>
+                    <span class="badge badge-secondary">Redis</span>
+                    <span class="badge badge-secondary">Jenkins</span>
+                    <span class="badge badge-secondary">nginx</span>
+                    <span class="badge badge-secondary">vue2</span>
+                    <span class="badge badge-secondary">postgreSQL</span>
+                    <span class="badge badge-secondary">AWS</span>
+                    <span class="badge badge-secondary">prometheus&grafana</span>
+                    <span class="badge badge-secondary">pinpoint</span>
+                    <span class="badge badge-secondary">spring boot admin</span>
+                    <span class="badge badge-secondary">Git</span>
+                    <span class="badge badge-secondary">GitLab</span>
+                    <span class="badge badge-secondary">Jira</span>
+                  </div>
+                </ul>
+                <li>프로젝트명 : 모지(MOJI) - 대학 입시 모의지원 및 합격 예측 서비스</li>
+                <ul>
+                  <li>진단평가개발팀</li>
+                  <li>주요 업무 : 백엔드 / 프론트엔드 개발</li>
+                  <li>담당 역할 : 회원 관리 API 및 화면 개발, 이투스 통합 회원 시스템 연동, 수능 성적 산출 비즈니스 로직 구현 코드 구조 개선</li>
+                  <li>진행 기간 : 2022년 4월 ~ 2023년 2월</li>
+                  <li>프로젝트 진행 인원 : 5 (팀원 4, 팀장 1)</li>
+                  <li>상세 내용 : 수능 시험을 친 학생이 자신의 수능 성적을 입력하면 해당 성적을 분석하여 대학 별 합격률을 예측해주는 서비스임. AI 합불 예측 모델은 작년에 개발되었으며 이번 프로젝트 기간 동안에는 수정된 요구사항에 따른 API 수정, 핵심 비즈니스 로직 수정, 이투스 통합회원 연동을 진행함.</li>
+                  <li>요구사항에 따른 API 설계 및 개발 작업 수행.</li>
+                  <ul>
+                    <li>디자인 및 퍼블리싱된 작업물에 vue2를 활용한 화면 개발 및 API 연동</li>
+                    <li>기존의 자체 회원 관리 시스템을 이투스 통합 회원 시스템과 연동하는 작업을 완료함.</li>
+                    <li>기존 비즈니스 로직에서 회원의 인증/인가와 맞물리는 부분을 분석하고 수정하여 이투스 통합 회원 시스템과 이상 없이 작동하도록 구성함.</li>
+                    <li>기존 회원을 통합 회원으로 변경하는 비즈니스도 구현함. (API를 설계 및 구현하고 이 과정에서 외부 부서와의 협의도 발생함.)</li>
+                    <li>수능 성적 산출 비즈니스 로직 구현 코드 구조 개선</li>
                     <ul>
-                      <li> 수능 시험 전후 시기별 트래픽에 따른 스케일업, 스케일다운을 진행함.</li>
+                      <li>10,488줄의 덩어리 파일을 추상화하여 분리함,  유지보수성 개선</li>
+                      <li>매년 입시 비즈니스 환경의 변화에 따라 10,488줄의 코드 덩어리 내에서 로직의 유지보수가 이루어지던 것을 정시 유형별, 대학별, 모집별로 추상화시킴으로써 분리된 구조로 유지보수할 수 있게 됨.</li>
+                      <li>스프링 부트의 FactoryBean에서 착안된 구조로 반복되는 클래스 작성, 추상 메서드 재정의 작업의 중복도 제거함.</li>
+                      <li>메서드 명을 리플렉션 API를 통해 호출하던 부분을, 추상화하여 스프링 컨텍스트에 빈 등록하여 관리하도록 수정함.</li>
+                      <li>런타임 환경에서 리플렉션 API를 통해 매번 호출되던 것들이 컴파일 과정에서 객체로 빈 등록되어 호출 되니 12% 정도 시간적인 성능 개선이 이루어짐.</li>
+                      <li>노션으로 정리한 문서 링크: https://kyeonghoyoo.notion.site/3276c9a55c6b4668a123fae911a16384?pvs=4</li>
                     </ul>
-                    <li>nginx를 통해 실제 트래픽을 분산하는 경험을 함.</li>
-                    <li>스프링 캐싱 추상화 스펙과 Redis를 결합한 캐싱 적용</li>
-                    <li>기존 레거시 인증/인가 시스템에서 이투스 통합 회원 관리로 교체하는 작업을 도맡아한 경험이 있음. (SSO)</li>
-                    <li>나의 주도하에 B2C의 기획을 재정립한 경험이 있음. (사람이 수행하던 작업을 시스템이 자동화 하도록 기획을 보완함.)</li>
+                    <li>주도적으로 사람이 수행하던 작업을 시스템이 자동화 하도록 기획을 보완하여 B2C 부분의 기획을 재정립한 경험이 있음.</li>
                     <ul>
                       <li>사업팀에서 이 때 높은 평가를 해주었음. (레퍼런스 체크를 통한 검증 가능)</li>
                     </ul>
                   </ul>
+                  <li><strong>Skill Keywords</strong></li>
+                  <div>
+                    <span class="badge badge-secondary">Java8</span>
+                    <span class="badge badge-secondary">Spring Boot</span>
+                    <span class="badge badge-secondary">Spring Security</span>
+                    <span class="badge badge-secondary">JPA</span>
+                    <span class="badge badge-secondary">Spring Data JPA</span>
+                    <span class="badge badge-secondary">QueryDSL</span>
+                    <span class="badge badge-secondary">vue2</span>
+                    <span class="badge badge-secondary">postgrSQL</span>
+                    <span class="badge badge-secondary">redis</span>
+                    <span class="badge badge-secondary">Jenkins</span>
+                    <span class="badge badge-secondary">nginx</span>
+                    <span class="badge badge-secondary">AWS</span>
+                    <span class="badge badge-secondary">Git</span>
+                    <span class="badge badge-secondary">GitLab</span>
+                    <span class="badge badge-secondary">Jira</span>
+                  </div>
                 </ul>
-                <li>공통서비스개발팀</li>
+                <li>프로젝트명 : 전국 모의고사 통합 플랫폼(MIS)</li>
                 <ul>
-                  <li>경쟁사 정보 수집 및 제공 서비스</li>
+                  <li>주요 업무 : 백엔드 / 프론트엔드 개발</li>
+                  <li>담당 역할 : 보일러 플래이트 구성 담당, 회원 관리, 게시판 관리에 관한  API 설계 및 개발, vue2와 vuetify를 활용한 화면 개발,  POI 라이브러리를 활용한 엑셀 개발 모듈 구현, 외주 개발자의 작업물 리펙토링</li>
+                  <li>진행 기간 : 2021년 4월 ~ 2022년 2월</li>
+                  <li>프로젝트 진행 인원: 6명 (팀장1, 팀원2, 외주3)</li>
+                  <li>상세 내용 : 과거 delphi로 개발된 ERD 서비스인 이투스 전국 모의고사 서비스의 백오피스를 지원하는 통합 관리 플랫폼을 Java로 신규로 개발하는 프로젝트임.</li>
                   <ul>
-                    <li>aws의 람다 서비스에 스프링부트앱으로 일정 스케줄마다 작업을 수행하도록 구성함.</li>
-                    <li>chrome 브라우저를 활용한 크롤링이 주된 작업이었음. 크롤링된 데이터를 AmazonRDS에 저장한 후, 웹 형태로 시각화하여 사내 사업팀에게 제공함.</li>
+                    <li>스프링 부트를 이용한 보일러플레이트 작업을 진행함. JWT 토큰 기반 인증/인가, Response Body에 대한 구조, 예외 처리 로직, JPA 관련한 properties 세팅, 각 레이어 별 파일 구조</li>
+                    <li>요구사항에 따른 API 설계 및 개발 작업 수행.</li>
+                    <li>로그인, 회원가입, 사용자 인증/인가 처리</li>
+                    <li>게시판 관리</li>
+                    <li>vue2와 vuetify를 활용한 화면 개발</li>
+                    <li>vuetify 스토어 내에 유료 template를 구매해서 템플릿을 활용하여 개발함.</li>
+                    <li>POI 라이브러리를 활용한 엑셀 개발 모듈 구현</li>
+                    <ul>
+                      <li>대상 고객인 학생, 선생님, 내부 직원을 위한 자료를 엑셀 파일로 내려주는 비즈니스 로직이 있음. 모의고사 통계 데이터로 다양한 유형의 엑셀 파일이 존재 하였음. 기존의 플랫폼에서는 Apache POI 라이브러리로 일일히 각각 전부 수작업으로 그리는 식으로 작업을 해왔음. 이에 따라 유지보수성도 떨어지고 신규 요구사항이 발생했을 때 작업 비용도 상당히 발생함.</li>
+                      <li>이러한 작업을 추상화하여 찢고 공통 모듈화 시켜 코드 생산성을 높임.</li>
+                      <li>데이터베이스에서 색인해온 데이터를 자바 DTO 객체로 변환하여 해당 객채를 통해 엑셀 파일을 생성할 수 있는 기능을 제공함.</li>
+                      <li>어노테이션 기반으로 자바 객체에 엑셀 스타일과 칼럼명을 지정할 수 있게 함.</li>
+                      <li>팩토리 메서드 패턴을 적용하여 새로운 형식의 엑셀 작업이 추가되면 사이드 이펙트를 최소화하여 새로 추가할 수 있도록 설계함.</li>
+                      <li>사용자가 업로드한 엑셀 파일을 읽어 자바 객체로 변환하는 기능을 제공함.</li>
+                    </ul>
+                    <li>외주 개발자의 작업물 리펙토링, 조회 API에서 JPA&QueryDSL을 사용한 1:n 관계의 페이징 쿼리에서 문제를 발견하여 리펙토링함.</li>
+                    <ul>
+                      <li>이를 해결하여 기존 평균 6.19초 걸리던 쿼리를 0.48초가 걸리도록 개선함.</li>
+                      <li>참조: https://kyeonghoyoo.notion.site/QueryDSL-a32b6647bedb4f4bba26785a7b2efce7?pvs=4</li>
+                    </ul>
+                    <li>통계 데이터를 XML 파일로 내려주는 부분에서 메모리 내에 과하게 적재되는 부분을 조사 및 분석하는 과정 중 Spring 프레임워크 내에서 무의미하게 `ReturnValueMethodParameter` 타입의 객체를 메모리에 유지하는 것을 발견함. 이를 보고하여 Spring 진영에서 정식 버그로 채택 후 수정하였음.</li>
+                    <ul>
+                      <li>참고: https://github.com/spring-projects/spring-framework/issues/28232</li>
+                    </ul>
                   </ul>
-                  <li>모의고사 통합 플랫폼 개발 및 유지보수</li>
-                  <li>모의고사 성적처리 서비스 개발 및 유지보수</li>
-                  <li>기존 레거시 제품 및 비즈니스 로직 개편, 유지보수</li>
-                  <li>코드 리뷰 문화가 없던 팀에 git flow 기반 브랜치 전략을 도입하고 코드리뷰를 도입하는데 기여함.</li>
-                  <li>Apache POI 라이브러리를 활용한 Excel 개발 모듈을 구현하여 팀원들의 개발 편의를 제공하였으며 엑셀 관련 신규 요구사항 작업을 효율적으로 처리할 수 있도록 만듬.</li>
-                  <ul>
-                    <li>데이터베이스에서 색인해온 데이터를 자바 DTO 객체로 변환하여 해당 객채를 통해 엑셀 파일을 생성할 수 있는 기능을 제공함.</li>
-                    <li>사용자가 특정 스타일의 탬플릿 엑셀 파일을 업로드하면 해당 스타일에 맞춰 자바 객체를 엑셀 데이터로 변환해줌.</li>
-                    <li>사용자가 업로드한 엑셀 파일을 읽어 자바 객체로 변환하는 기능을 제공함.</li>
-                  </ul>
+                  <li><strong>Skill Keywords</strong></li>
+                  <div>
+                    <span class="badge badge-secondary">Java8</span>
+                    <span class="badge badge-secondary">Spring Boot</span>
+                    <span class="badge badge-secondary">JPA</span>
+                    <span class="badge badge-secondary">Spring Data JPA</span>
+                    <span class="badge badge-secondary">Spring Batch</span>
+                    <span class="badge badge-secondary">QueryDSL</span>
+                    <span class="badge badge-secondary">Jenkins</span>
+                    <span class="badge badge-secondary">nginx</span>
+                    <span class="badge badge-secondary">vue2&vuetify</span>
+                    <span class="badge badge-secondary">postgreSQL</span>
+                    <span class="badge badge-secondary">AWS</span>
+                    <span class="badge badge-secondary">Git</span>
+                    <span class="badge badge-secondary">GitHub</span>
+                    <span class="badge badge-secondary">Jira</span>
+                  </div>
                 </ul>
-                <li><strong>Skill Keywords</strong></li>
-                <div>
-                  <span class="badge badge-secondary">java8</span>
-                  <span class="badge badge-secondary">spring boot</span>
-                  <span class="badge badge-secondary">spring security</span>
-                  <span class="badge badge-secondary">spring batch</span>
-                  <span class="badge badge-secondary">jpa</span>
-                  <span class="badge badge-secondary">vue2</span>
-                  <span class="badge badge-secondary">pinpoint</span>
-                  <span class="badge badge-secondary">spring boot admin</span>
-                  <span class="badge badge-secondary">prometheus</span>
-                  <span class="badge badge-secondary">grafana</span>
-                  <span class="badge badge-secondary">docker</span>
-                  <span class="badge badge-secondary">aws</span>
-                  <span class="badge badge-secondary">jenkins</span>
-                  <span class="badge badge-secondary">postgresql</span>
-                  <span class="badge badge-secondary">jira</span>
-                  <span class="badge badge-secondary">git</span>
-                  <span class="badge badge-secondary">github</span>
-                  <span class="badge badge-secondary">gitlab</span>
-                  <span class="badge badge-secondary">agile</span>
-                </div>
-              </ul>
+                <li>기타 업무</li>
+                <ul>
+                  <li>경쟁사 데이터를 크롤링하는 서비스를 운영해봄.</li>
+                  <li>일정 주기마다 실행되는 배치 작업 방식의 서비스로 AWS lambda를 이용해 작동함.</li>
+                  <li>selenium 라이브러리를 사용하여 개발하였고 크롬 엔진에서 동작함.</li>
+                  <li>첫 입사 당시에 코드 리뷰 문화가 없던 팀에 git flow 기반 브랜치 전략을 도입하고 코드리뷰를 도입하는데 기여함.</li>
+                </ul>
+              </ol>
             </div>
           </div>
           <hr />
